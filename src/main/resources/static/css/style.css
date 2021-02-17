@@ -1,0 +1,9 @@
+body {
+    font-family: "Tahoma,, helvetica, arial, freesans,sans-serif";
+    font-size: 12px;
+    background-color: #19438a;
+}
+
+.customer-info, table {
+    color: #fff !important;
+}
