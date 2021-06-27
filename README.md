@@ -25,6 +25,9 @@ MEDIUM | 900 px | 400 px
    
    2.2. after login into the Widget Store; At the top of the siteو click on the 'Upgrade To Developer Account' and fill the form.
    
-   3.2.
+   3.2. After your request is approved by the admin, your account will change to Developer-Account. 
+   
+3. You must register your widget information in the Widget Store.
+   3.1.   
    
    
