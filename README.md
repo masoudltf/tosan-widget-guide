@@ -15,7 +15,7 @@ SMALL | 300 px | 216 px
 SMALL | 300 px | 445 px
 WIDE | 630 px | 216 px
 MEDIUM | 630 px | 445 px
-MEDIUM | 900 px | 400 px
+FULL | 900 px | 400 px
 
 2. To register a widget in the Widget Store, first create an account in the Wiget Store. 
    1. If you don't have an account in Widget Store, first click the 'Signup' button, next complete the form.
@@ -26,6 +26,11 @@ MEDIUM | 900 px | 400 px
    1. Login into the Widget Store.
    2. After login, click  the 'User Panel' to enter the user panel section. 
    3. in the user panel section click 'Developer Panel' menu, next click the 'Developer Apps' sub menu.
-   
+   4. click the 'New' button
+   5. on the 'Create New App' window choose 'Widget' type
+   6. click the 'Save' button 
+   7. in this step you must fill the form about all information of your widget, then click the 'Next' button.
+      1.
+       
    
    
