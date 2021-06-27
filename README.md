@@ -18,6 +18,7 @@ MEDIUM | 900 px | 400 px
    
    1-2. The security of the widgets is the responsibility of the bank and need to be checked by the bank.
    
+   
 2. To register a widget in the Widget Store, first create an account in the Wiget Store. 
    
    
