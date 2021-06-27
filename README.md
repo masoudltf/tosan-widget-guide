@@ -8,7 +8,11 @@ Pay attention to the following points when developing and installing your widget
 
 Widget's type | Widget's width | Widget's height 
 SMALL | 300 px | 216 px
+
 SMALL | 300 px | 445 px
+
 WIDE | 630 px | 216 px
+
 MEDIUM | 630 px | 445 px
+
 MEDIUM | 900 px | 400 px
