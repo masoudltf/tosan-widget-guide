@@ -14,18 +14,18 @@ WIDE | 630 px | 216 px
 MEDIUM | 630 px | 445 px
 MEDIUM | 900 px | 400 px
 
-1-1. When you choose Full type, Netway will display your widget in a seperate page
+   1. When you choose Full type, Netway will display your widget in a seperate page
    
-1-2. The security of the widgets is the responsibility of the bank and need to be checked by the bank.
+   2. The security of the widgets is the responsibility of the bank and need to be checked by the bank.
    
 
 2. To register a widget in the Widget Store, first create an account in the Wiget Store. 
 
-   2.1. If you don't have an account in Widget Store, first click the 'Signup' button, next complete the form.
+   1. If you don't have an account in Widget Store, first click the 'Signup' button, next complete the form.
    
-   2.2. after login into the Widget Store; At the top of the siteو click the 'Upgrade To Developer Account' and fill the form.
+   2. after login into the Widget Store; At the top of the siteو click the 'Upgrade To Developer Account' and fill the form.
    
-   3.2. After your request is approved by the admin, your account will change to Developer-Account. 
+   2. After your request is approved by the admin, your account will change to Developer-Account. 
    
 3. You must register your widget information in the Widget Store.
 
