@@ -5,6 +5,7 @@ Widgets are loaded in Iframe in Netway; So developers can use any programming la
 Pay attention to the following points when developing and installing your widget.
 
 1. The types of widgets with their feuters are listed in the table below. developers need to choose one of  the types when registering their widgets in the Widget Store.
+
    1. When you choose Full type, Netway will display your widget in a seperate page
    2. The security of the widgets is the responsibility of the bank and need to be checked by the bank.
 
