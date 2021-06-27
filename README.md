@@ -15,7 +15,6 @@ SMALL | 300 px | 445 px
 WIDE | 630 px | 216 px
 MEDIUM | 630 px | 445 px
 MEDIUM | 900 px | 400 px
-   
 
 2. To register a widget in the Widget Store, first create an account in the Wiget Store. 
    1. If you don't have an account in Widget Store, first click the 'Signup' button, next complete the form.
