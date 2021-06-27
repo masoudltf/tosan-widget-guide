@@ -6,6 +6,14 @@ Pay attention to the following points when developing and installing your widget
 
 1.The types of widgets with their feuters are listed in the table below. developers need to choose one of  the types when registering their widgets in the Widget Store.
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Widget's type | Widget's width | Widget's height 
+--- | --- | --- 
+SMALL | 300 px | 216 px 
+--- | --- | --- 
+SMALL | 300 px | 445 px
+--- | --- | --- 
+WIDE | 630 px | 216 px
+--- | --- | --- 
+MEDIUM | 630 px | 445 px
+--- | --- | --- 
+MEDIUM | 900 px | 400 px
