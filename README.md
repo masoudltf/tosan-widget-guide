@@ -16,4 +16,4 @@ MEDIUM | 900 px | 400 px
 
    1-1. When you choose Full type, Netway will display your widget in a seperate page
    
-   2-2.The security of the widgets is the responsibility of the bank and need to be checked by the bank.
+   2-2. The security of the widgets is the responsibility of the bank and need to be checked by the bank.
