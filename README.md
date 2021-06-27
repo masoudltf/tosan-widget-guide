@@ -23,7 +23,7 @@ MEDIUM | 900 px | 400 px
 
    2.1. If you don't have an account in Widget Store, first click on the 'Signup' button, next complete the form.
    
-   2.2. after login into the Widget Store; At the top of the siteو click on the 'Upgrade To Developer Account'and fill the form.
+   2.2. after login into the Widget Store; At the top of the siteو click on the 'Upgrade To Developer Account' and fill the form.
    
    3.2.
    
