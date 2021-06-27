@@ -18,19 +18,13 @@ MEDIUM | 900 px | 400 px
    
 
 2. To register a widget in the Widget Store, first create an account in the Wiget Store. 
-
    1. If you don't have an account in Widget Store, first click the 'Signup' button, next complete the form.
-   
    2. after login into the Widget Store; At the top of the siteو click the 'Upgrade To Developer Account' and fill the form.
-   
    2. After your request is approved by the admin, your account will change to Developer-Account. 
    
 3. You must register your widget information in the Widget Store.
-
    1. Login into the Widget Store.
-   
    2. After login, click  the 'User Panel' to enter the user panel section. 
-   
    3. in the user panel section click 'Developer Panel' menu, next click the 'Developer Apps' sub menu.
    
    
