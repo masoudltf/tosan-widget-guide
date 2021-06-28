@@ -30,7 +30,7 @@ FULL | 900 px | 400 px
    5. on the 'Create New App' window choose 'Widget' type
    6. click the 'Save' button 
    7. in this step you must fill the form about all information of your widget, then click the 'Next' button.
-      1.
+      1. URL Schema is your widget url and Netway uses this url to call your widget. 
        
    
    
