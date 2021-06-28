@@ -65,5 +65,6 @@ this token must be encoded by the widget and its payload contains the below info
       "exp": 1580713455
    }
 ```
+exp: is the Token expiration date, see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4)
 
    
