@@ -65,13 +65,19 @@ this token must be encoded by the widget and its payload contains the below info
       "exp": 1580713455
    }
 ```
-exp is The Token expiration date.
+exp is The Token c.
 
 see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4).
 
 jti is The JWT Id, see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7).
 
 bankCode is The Bank Code.
+
+language is the selected language which is selected in Netway by the user.
+
+The widget can call the Widget Store login service with the ssoToken.
+
+ssoTokenExpirationTime is the ssoToken expiration date.
 
 
 
