@@ -73,11 +73,11 @@ this token must be encoded by the widget and its payload contains the below info
 
 > language is the selected language which is selected in Netway by the user.
 
-> The widget can call the Widget Store login service with the ssoToken.
+> The widget can call the Widget Store login service with the ssoToken.**it's disposable**
 
 > ssoTokenExpirationTime is the ssoToken expiration date.
 
-**The ssoToken is disposable**
+
 
 
 
