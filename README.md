@@ -40,14 +40,19 @@ FULL | 900 px | 400 px
    1. Widgets are loaded in Iframe in Netway, so you must set the 'X-Frame-Options' Header value to 'allow-from' for the Netway's URL.
    2. To ensure the widget is available, Netway sends a HTTP HEAD method request to the URL which you fill in the 'URL Schema'.
    3. If the Widget responses with 200 Http status code,Netway will send a HTTP GET method request with 'ssoJwt' query parameter to the URL which fill in the 'URL Schema'.  
-   4. after the widget receives 'ssoJwt', it must be decoded by the widget. 
+   4. After the widget receives 'ssoJwt', it must be decoded by the widget. 
+   5. The widget needs the value of 'ssoToken' in the payload of decoded 'ssoJwt' parameter to call the login service of the Widget Store.
+   6. After calling the login service of the Widget Store, the widget receives a json which conatins 'session_id'.
+   7. With the 'session_id' the widget can be call all banking service.
       1. the 'ssoJwt' parameter is a JWT(JSON Web Tokens).
       
       for example:
       
          ```
-         eyJhbGciOiJub25lIn0.eyJqdGkiOiJlNDBmY2VkYy0zNmYyLTQxOTYtOTc2Yi1mMWUxY2NhOWQwY2YiLCJiYW5rQ29kZSI6IkJPSU1JUiIsInNzb1Rva2VuRXhwaXJhdGlvblRpbWUiOjE1ODA3MTMxNTcyODUsImxhbmd1YWdlIjoiZmEiLCJzc29Ub2tlbiI6IjM5YmZjNDA2LWZiMDgtNDk1Zi05MTNjLTUyMWM4MTFlNTRhNCIsImV4cCI6MTU4MDcxMzQ1NX0. 
+                                                eyJhbGciOiJub25lIn0.eyJqdGkiOiJlNDBmY2VkYy0zNmYyLTQxOTYtOTc2Yi1mMWUxY2NhOWQwY2YiLCJiYW5rQ29kZSI6IkJPSU1JUiIsInNzb1Rva2VuRXhwaXJhdGlvblRpbWUiOjE1ODA3MTMxNTcyODUsImxhbmd1YWdlIjoiZmEiLCJzc29Ub2tlbiI6IjM5YmZjNDA2LWZiMDgtNDk1Zi05MTNjLTUyMWM4MTFlNTRhNCIsImV4cCI6MTU4MDcxMzQ1NX0. 
          ```
+      
+      
        
    
    
