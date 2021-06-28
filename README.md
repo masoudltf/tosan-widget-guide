@@ -154,7 +154,7 @@ The body of response is
 "loginToken":"LOGIN-TOKEN"
 ```
 
-Calling the deposit list service(a banking service)
+### Calling the deposit list service(a banking service)
 To call the the deposit list service you must call this URL: 
 
 > https://wistore-api-url/v1/deposits
