@@ -178,7 +178,7 @@ Bank-Id:The-BankCode-You-Get-From-The-Previous-Service
 session:The-session-You-Get-From-The-Previous-Service 
 ```
 
-The body of response is the list of the below object
+The body of response is a list of the below object
 
 ```
 "deposit_number":"DEPOSIT-NUMBER",
