@@ -154,7 +154,36 @@ The body of response is
 "loginToken":"LOGIN-TOKEN"
 ```
 
+Calling the deposit list service(a banking service)
+To call the the deposit list service you must call this URL: 
 
+> https://wistore-api-url/v1/deposits
+
+> HTTP Method: POST
+
+You must set these parameters in the header of request
+
+```
+App-Key: YOUR-WIDGET-APPKEY
+Device-Id: 192.168.1.1
+Accept-Language: fa
+Content-Type: application/json
+ACCEPT: application/json
+CLIENT-IP-ADDRESS: 192.168.1.1
+CLIENT-PLATFORM-TYPE: ANDROID
+CLIENT-DEVICE-ID: 192.168.1.1
+CLIENT-USER-ID: 091212*****
+CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
+Bank-Id:The-BankCode-You-Get-From-The-Previous-Service
+session:The-session-You-Get-From-The-Previous-Service 
+```
+
+The body of response is the list of below object
+
+```
+"deposit_number":"DEPOSIT-NUMBER",
+"balance":"DEPOSIT-BALANCE"
+```
 
 
 
