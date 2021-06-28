@@ -99,6 +99,14 @@ CLIENT-USER-ID: 091212*****
 CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
 ```
 
+You must set these parameters in the body of request
+
+```
+"username":"username",//wistore username
+"password":"passowrd" //wistore password
+```
+
+
 
 
 
