@@ -37,9 +37,10 @@ FULL | 900 px | 400 px
       5. In the 'Services' section you must select the banking services that you want to use and need in your widget.
 4. After completeing the above steps, The 'Appkey' and the 'AppSecret' of your widget will be display.Please save this information in a text file. 
 5. when you developing your widget, please follow the tips below:
-   1.   Widgets are loaded in Iframe in Netway, so you must set the 'X-Frame-Options' Header value to 'allow-from' for the Netway's URL.
-   2.   To ensure the widget is available, Netway sends a HTTP HEAD method request to the URL which you fill in the 'URL Schema'.
-   3.    
+   1. Widgets are loaded in Iframe in Netway, so you must set the 'X-Frame-Options' Header value to 'allow-from' for the Netway's URL.
+   2. To ensure the widget is available, Netway sends a HTTP HEAD method request to the URL which you fill in the 'URL Schema'.
+   3. If the Widget responses with 200 Http status code,Netway will send a HTTP GET method request with 'ssoJwt' query parameter to the URL which fill in the 'URL Schema'.  
+   4. after the widget receives 'ssoJwt', it must be decoded in the widget.  
        
    
    
