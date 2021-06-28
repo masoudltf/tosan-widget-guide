@@ -35,7 +35,7 @@ FULL | 900 px | 400 px
       3. Depending on the business that your widget offers, select the categories in the 'Category' field. 
       4. After registering your widget in the Widget Store; your widget will be introduced in a separate page in the Widget Store, so you can upload the pictures of your widget in the 'Pictures' section.
       5. In the 'Services' section you must select the banking services that you want to use and need in your widget.
-4. After completeing the above steps, The 'Appkey' and the 'AppSecret' of your widget will be display.   
+4. After completeing the above steps, The 'Appkey' and the 'AppSecret' of your widget will be display.Please save this information in a text file.   
        
    
    
