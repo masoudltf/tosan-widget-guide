@@ -102,10 +102,57 @@ CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
 You must set these parameters in the body of request
 
 ```
-"username":"username",//wistore username
-"password":"passowrd" //wistore password
+"username":"YOUR-WIDGET-STORE-USERNAME",
+"password":"YOUR-WIDGET-PASSWORD"
 ```
 
+The body of response is
+
+```
+"token":"dnfghsfl45md4df.ww/dsf5;ldsfksd,sfsdl",
+"first_name":"USER-FIRST-NAME",
+"last_name":"USER-LAST-NAME"
+```
+
+Then you must call this service with this URL:
+
+> https://wistore-api-url/v1/auth/login/token
+
+> HTTP Method: POST
+
+You must set these parameters in the header of request
+
+```
+App-Key: YOUR-WIDGET-APPKEY
+Device-Id: 192.168.1.1
+Accept-Language: fa
+Content-Type: application/json
+ACCEPT: application/json
+CLIENT-IP-ADDRESS: 192.168.1.1
+CLIENT-PLATFORM-TYPE: ANDROID
+CLIENT-DEVICE-ID: 192.168.1.1
+CLIENT-USER-ID: 091212*****
+CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
+Bank-Id:The-BankCode-You-Get-From-ssoJwt
+token-Id:The-Token-Youe-Get-From-The-Previous-Service 
+```
+You must set these parameters in the body of request
+
+```
+"token":"ssoToken-You-Get-From-ssoJwt"
+```
+
+The body of response is
+
+```
+"code":"USER-CODE",
+"gender":"USER-GENDER",
+"name":"USER-FULL-NAME",
+"session_id":"SESSION-ID",
+"customer_number":"CUSTOMER-BANK-NUMBER",
+"bankCode":"BANK-SWIFT-CODE",
+"loginToken":"LOGIN-TOKEN"
+```
 
 
 
