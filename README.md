@@ -87,16 +87,16 @@ To call the Widget Store login you must call this URL:
 You must set these parameters in the header of request
 
 ```
-   App-Key: 12XXX
-	Device-Id: 192.168.1.1
-	Accept-Language: fa
-	Content-Type: application/json
-	ACCEPT: application/json
-	CLIENT-IP-ADDRESS: 192.168.1.1
-	CLIENT-PLATFORM-TYPE: ANDROID
-	CLIENT-DEVICE-ID: 192.168.1.1
-	CLIENT-USER-ID: 091212*****
-	CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
+App-Key: 12XXX
+Device-Id: 192.168.1.1
+Accept-Language: fa
+Content-Type: application/json
+ACCEPT: application/json
+CLIENT-IP-ADDRESS: 192.168.1.1
+CLIENT-PLATFORM-TYPE: ANDROID
+CLIENT-DEVICE-ID: 192.168.1.1
+CLIENT-USER-ID: 091212*****
+CLIENT-USER-AGENT: Android - Android 5.1 - Sumsung - Gallexy8
 ```
 
 
