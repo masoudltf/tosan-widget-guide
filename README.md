@@ -40,7 +40,7 @@ FULL | 900 px | 400 px
    1. Widgets are loaded in Iframe in Netway, so you must set the 'X-Frame-Options' Header value to 'allow-from' for the Netway's URL.
    2. To ensure the widget is available, Netway sends a HTTP HEAD method request to the URL which you fill in the 'URL Schema'.
    3. If the Widget responses with 200 Http status code,Netway will send a HTTP GET method request with 'ssoJwt' query parameter to the URL which fill in the 'URL Schema'.  
-   4. after the widget receives 'ssoJwt', it must be decoded in the widget.  
+   4. after the widget receives 'ssoJwt', it must be decoded by the widget.  
        
    
    
