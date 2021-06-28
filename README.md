@@ -77,6 +77,10 @@ this token must be encoded by the widget and its payload contains the below info
 
 > ssoTokenExpirationTime is the ssoToken expiration date.
 
+**The ssoToken is disposable**
+
+
+
 
 
 
