@@ -69,13 +69,15 @@ this token must be encoded by the widget and its payload contains the below info
 
 > jti is the JWT Id. See [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7).
 
-> bankCode is the Bank Code.
+> bankCode is the swift code of bank.
 
 > language is the selected language which is selected in Netway by the user.
 
 > The widget can call the Widget Store login service with the ssoToken.
 
 > ssoTokenExpirationTime is the ssoToken expiration date.
+
+
 
 
 
