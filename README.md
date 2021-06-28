@@ -77,7 +77,11 @@ this token must be encoded by the widget and its payload contains the below info
 
 > ssoTokenExpirationTime is the ssoToken expiration date.
 
-### Calling the banking service
+### Calling the Widget Store login service
+To call the Widget Store login you must call this URL: 
+
+> https://wistore-api-url/v1/auth/market/login
+> HTTP Method: POST
 
 
 
