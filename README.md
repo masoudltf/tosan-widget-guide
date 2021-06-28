@@ -81,6 +81,7 @@ this token must be encoded by the widget and its payload contains the below info
 To call the Widget Store login you must call this URL: 
 
 > https://wistore-api-url/v1/auth/market/login
+
 > HTTP Method: POST
 
 
