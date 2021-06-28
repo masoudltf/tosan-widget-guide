@@ -57,13 +57,13 @@ this token must be encoded by the widget and its payload contains the below info
 
 ```json
    {
-  "jti": "e40fcedc-36f2-4196-976b-f1e1cca9d0cf",
-  "bankCode": "BOIMIR",
-  "ssoTokenExpirationTime": 1580713157285,
-  "language": "fa",
-  "ssoToken": "39bfc406-fb08-495f-913c-521c811e54a4",
-  "exp": 1580713455
-}
+      "jti": "e40fcedc-36f2-4196-976b-f1e1cca9d0cf",
+      "bankCode": "BOIMIR",
+      "ssoTokenExpirationTime": 1580713157285,
+      "language": "fa",
+      "ssoToken": "39bfc406-fb08-495f-913c-521c811e54a4",
+      "exp": 1580713455
+   }
 ```
 
    
