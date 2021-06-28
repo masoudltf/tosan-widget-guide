@@ -31,6 +31,9 @@ FULL | 900 px | 400 px
    6. click the 'Save' button 
    7. in this step you must fill the form about all information of your widget, then click the 'Next' button.
       1. URL Schema is your widget url and Netway uses this url to call your widget. 
+      2. In the 'Operating System' field, select 'Web'.
+      3. Depending on the business that your widget offers, select the categories in the 'Category' field. 
+      4. After registering your widget in the Widget Store; your widget will be introduced in a separate page in the Widget Store, so you can upload the pictures of your widget in the 'Pictures' section.
        
    
    
