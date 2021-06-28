@@ -44,7 +44,9 @@ FULL | 900 px | 400 px
    5. The widget needs the value of 'ssoToken' in the payload of decoded 'ssoJwt' parameter to call the login service of the Widget Store.
    6. After calling the login service of the Widget Store, the widget receives a json which conatins 'session_id'.
    7. With the 'session_id' the widget can be call all banking service.
-      1. the 'ssoJwt' parameter is a JWT(JSON Web Tokens).
+   
+   ### ssoJwt
+   the 'ssoJwt' parameter is a JWT(JSON Web Tokens).
       
       for example:
       
