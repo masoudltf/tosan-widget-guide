@@ -87,7 +87,7 @@ To call the Widget Store login you must call this URL:
 You must set these parameters in the header of request
 
 ```
-App-Key: 12XXX
+App-Key: YOUR-WIDGET-APPKEY
 Device-Id: 192.168.1.1
 Accept-Language: fa
 Content-Type: application/json
