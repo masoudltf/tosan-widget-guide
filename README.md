@@ -53,6 +53,17 @@ for example:
       
        eyJhbGciOiJub25lIn0.eyJqdGkiOiJlNDBmY2VkYy0zNmYyLTQxOTYtOTc2Yi1mMWUxY2NhOWQwY2YiLCJiYW5rQ29kZSI6IkJPSU1JUiIsInNzb1Rva2VuRXhwaXJhdGlvblRpbWUiOjE1ODA3MTMxNTcyODUsImxhbmd1YWdlIjoiZmEiLCJzc29Ub2tlbiI6IjM5YmZjNDA2LWZiMDgtNDk1Zi05MTNjLTUyMWM4MTFlNTRhNCIsImV4cCI6MTU4MDcxMzQ1NX0.
        
-this token must be encoded by the widget and it's payload contains the below information:     
-   
+this token must be encoded by the widget and its payload contains the below information:
+
+```json
+   {
+  "jti": "e40fcedc-36f2-4196-976b-f1e1cca9d0cf",
+  "bankCode": "BOIMIR",
+  "ssoTokenExpirationTime": 1580713157285,
+  "language": "fa",
+  "ssoToken": "39bfc406-fb08-495f-913c-521c811e54a4",
+  "exp": 1580713455
+}
+```
+
    
