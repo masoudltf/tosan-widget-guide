@@ -65,9 +65,15 @@ this token must be encoded by the widget and its payload contains the below info
       "exp": 1580713455
    }
 ```
-exp is The Token expiration date, see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4)
-jti is The JWT Id, see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7)
-bankCode is The Bank Code
+exp is The Token expiration date.
+
+see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4).
+
+jti is The JWT Id, see [https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.7).
+
+bankCode is The Bank Code.
+
+
 
 
 
