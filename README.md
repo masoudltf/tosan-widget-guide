@@ -50,10 +50,14 @@ FULL | 900 px | 400 px
       
       for example:
       
-         ```  
-         this is s a test
-         ```
-      
+    * Item 1
+    * Use the following
+
+        > * First level of quoted list
+        >     * Second level of quoted ***list***
+        >
+        >     * > Nested *quote*
+* Item 2      
       
        
    
