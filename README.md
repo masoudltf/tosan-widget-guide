@@ -185,7 +185,56 @@ The body of response is a list of the below object
 "balance":"DEPOSIT-BALANCE"
 ```
 
+### Open mobile application camera module and scan qr code
 
+First of all write a function named onMessage and assign this function to ReactNativeWebView object.
+This function have a param filled by qr data and called when qr code scanned.
+
+```
+function onMessage(data) {
+   document.getElementById("div").innerHTML = "Camera Data: " + data;
+}
+window.ReactNativeWebView.onMessage = onMessage;
+```
+
+Then create a function to contact mobile application for openning camera, write something like this:
+
+```
+function openCamera() {
+   var data = JSON.stringify({action: 'openCamera'});
+   window.ReactNativeWebView.postMessage(data);
+}
+```
+
+and call this function like this:
+
+```
+<button onclick="openCamera()">Open Camera</button>
+```
+
+Full example:
+
+```
+<html lang="en">
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script>
+           function onMessage(data) {
+               document.getElementById("div").innerHTML = "Camera Data: " + data;
+           }
+           window.ReactNativeWebView.onMessage = onMessage;
+           function openCamera() {
+               var data = JSON.stringify({action: 'openCamera'});
+               window.ReactNativeWebView.postMessage(data);
+           }
+       </script>
+   </head>
+	<body>
+		<h1 id="div">Camera: </h1>
+		<button onclick="openCamera()">Open Camera</button>
+	</body>
+</html>
+```
 
 
 
