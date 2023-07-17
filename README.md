@@ -236,6 +236,47 @@ Full example:
 </html>
 ```
 
+### Use digital signiture to signe documents (PDF or TXT)
+
+Write a function named onMessage and assign this function to ReactNativeWebView object. This function have a param filled by signed data and called when document signing is compelete.
+
+function onMessage(data) {
+               document.getElementById("div").innerHTML = "Document: " + data;
+           }
+           window.ReactNativeWebView.onMessage = onMessage;
+           function signDocument() {
+				//var dataToSign = convert PDF to base64 and pass as string / pass txt as string
+				//var dataType = PDF or TXT
+               var data = JSON.stringify({action: 'signDocument', dataToSign: 'dataToSign', dataType: 'pdf'});
+               window.ReactNativeWebView.postMessage(data);
+           }
+	   
+and call this function like this:
+<button onclick="signDocument()">Sign My Documetn</button>
+
+Full example:
+<html lang="en">
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script>
+           function onMessage(data) {
+               document.getElementById("div").innerHTML = "Document: " + data;
+           }
+           window.ReactNativeWebView.onMessage = onMessage;
+           function signDocument() {
+				//var dataToSign = convert PDF to base64 and pass as string / pass txt as string
+				//var dataType = PDF or TXT
+               var data = JSON.stringify({action: 'signDocument', dataToSign: 'dataToSign', dataType: 'pdf'});
+               window.ReactNativeWebView.postMessage(data);
+           }
+       </script>
+   </head>
+	<body>
+		<h1 id="div">Document: </h1>
+		<button onclick="signDocument()">Sign My Documetn</button>
+	</body>
+</html>
+
 
 
 
